@@ -33,22 +33,22 @@ app.get('/about',(req,res) => {
 app.get('',(req,res)=>{
 res.render('index',{
     title:'Weather App',
-    name:'Raksh'
+    name:'Rakshana'
 })     //renders hbs file named index
 })
 
 app.get('/about',(req,res)=>{
     res.render('about',{
         title:'About me',
-        name:'Raksh'
+        name:'Rakshana'
     })
 })
 
 app.get('/help',(req,res)=>{
     res.render('help',{
         title:'Help',
-        msg:'How can we help you',
-        name:'Raksh'
+        msg:'How can I help you',
+        name:'Rakshana'
     })
 })
 

@@ -1,5 +1,5 @@
 body {
-    color: #333333;
+    color: white;
     font-family: arial;
     max-width: 650px;
     margin: 0 auto;
@@ -10,7 +10,7 @@ body {
     min-height: 100vh;
 }
 footer {
-    color: #888888;
+    color: white;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
@@ -18,17 +18,17 @@ footer {
 header {
     margin-top: 16px;
     margin-bottom: 48px;
-
 }
 h1{
     font-size: 64px;
     margin-bottom: 16px;
+    color: white;
 }
-header a {
+/*header a {
     columns: #888888;
     margin-top: 16px;
     text-decoration: none;
-}
+}*/
 .portrait{
     width: 250px;
 }
@@ -36,7 +36,7 @@ header a {
     flex-grow: 1;
 }
 input{
-    border: 1px solid #cccccc;
+    border: 1px solid white;
     padding: 8px;
 }
 button{
@@ -46,3 +46,31 @@ button{
     color: white;
     padding: 8px;
 }
+/*adding menu styles*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
